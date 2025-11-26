@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkusz 6</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 700px;           
+    margin: 30px auto;
+    border: 2px solid black;
+}
+
+
+.header {
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 25px 0;      
+    font-size: 24px;         
+}
+
+
+.sections-row {
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.section-item {
+    flex: 1;
+    border-right: 2px solid black;
+    padding: 40px 0;         
+    text-align: center;
+    font-size: 20px;        
+}
+
+.section-item:last-child {
+    border-right: none;
+}
+
+
+.footer {
+    padding: 25px 0;          
+    text-align: center;
+    font-size: 22px;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header class="header">Blok nagłówkowy
+        <a href="https://zophex.github.io/Strona/">
+            <h4>powrót</h4>
+        </a>
+    </header>
+
+    <section class="sections-row">
+        <div class="section-item">Pierwszy<br>blok<br>sekcji</div>
+        <div class="section-item">Drugi<br>blok<br>sekcji</div>
+        <div class="section-item">Trzeci<br>blok<br>sekcji</div>
+        <div class="section-item">Czwarty<br>blok<br>sekcji</div>
+    </section>
+
+    <footer class="footer">Blok stopki</footer>
+
+</div>
+
+</body>
+</html>
